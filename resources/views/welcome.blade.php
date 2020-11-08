@@ -5,6 +5,6 @@
     <div class="jumbotron text-center">
         <h1>Welcome To UTM Calculator</h1>
         <p>This is an application to calculate user-performance for University Teknologi Malaysia</p>
-        <p><a class="btn btn-primary btn-lg" href="http://localhost/UTM_Calculator/public/login" role="button">Login</a> <a class="btn btn-success btn-lg" href="http://localhost/UTM_Calculator/public/registration" role="button">Register</a></p>
+        <p><a class="btn btn-primary btn-lg" href="{{ url('/login') }}" role="button">Login</a> <a class="btn btn-success btn-lg" href="{{ url('/registration') }}" role="button">Register</a></p>
     </div>
 @endsection
