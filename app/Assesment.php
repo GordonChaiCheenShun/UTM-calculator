@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Assesment extends Model
 {
-    protected $table = 'assesmnet';
+    protected $table = 'assesment';
     public $primaryKey = 'id';
     public $timestamp = true;
 }
